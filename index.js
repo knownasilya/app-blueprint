@@ -1,6 +1,6 @@
 /*jshint node:true*/
 
-var stringUtil = require('../../lib/utilities/string');
+var stringUtil = require('./utils/string');
 
 module.exports = {
   description: 'knownasilya\'s blueprint for ember-cli projects.',
@@ -10,12 +10,13 @@ module.exports = {
     var rawName   = entity.name;
     var name      = stringUtil.dasherize(rawName);
     var namespace = stringUtil.classify(rawName);
+    console.log(options);
 
     return {
       name: name,
       modulePrefix: name,
       namespace: namespace,
-      emberCLIVersion: require('../../package').version
+      emberCLIVersion: '0.2.2'
     };
   }
 };
