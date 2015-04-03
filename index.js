@@ -3,7 +3,7 @@
 var stringUtil = require('../../lib/utilities/string');
 
 module.exports = {
-  description: 'The default blueprint for ember-cli projects.',
+  description: 'knownasilya\'s blueprint for ember-cli projects.',
 
   locals: function(options) {
     var entity    = options.entity;
