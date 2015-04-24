@@ -38,6 +38,7 @@
     "ember-cli-less": "1.2.0",
     "ember-document-title": "1.1.11",
     "ember-browserify": "0.6.4",
-    "ember-try": "0.0.5"
+    "ember-try": "0.0.5",
+    "liquid-fire": "0.19.*"
   }
 }
