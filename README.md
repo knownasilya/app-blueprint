@@ -10,6 +10,7 @@ ember <new|init> [app-name] --blueprint https://github.com/knownasilya/app-bluep
 * FontAwesome
 * Less support ([ember-cli-less](https://www.npmjs.org/package/ember-cli-less))
 * Browserify support ([ember-browserify](https://www.npmjs.org/package/ember-browserify))
+  - Use `import somePackage from 'npm:some-package';`
 * Notifications ([toastr](http://toastrjs.com))
   - `this.get('notify').success(..)` available in routes, controllers, and components
 * Custom Titles Component ([ember-document-title](https://www.npmjs.com/package/ember-document-title))
