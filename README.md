@@ -6,8 +6,8 @@ ember <new|init> [app-name] --blueprint https://github.com/knownasilya/app-bluep
 
 ## Includes
 
-* Bootstrap
-* FontAwesome
+* [Bootstrap](http://getbootstrap.com/)
+* [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
 * Less support ([ember-cli-less](https://www.npmjs.org/package/ember-cli-less))
 * Animations ([liquid-fire](http://ef4.github.io/liquid-fire/))
   - See link above, and edit `app/transitions.js` for additional animations
