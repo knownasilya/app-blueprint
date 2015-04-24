@@ -21,7 +21,8 @@ var app = new EmberApp();
 // along with the exports of each module as its value.
 
 importAssets(app, app.bowerDirectory, [
-  'bootstrap/dist/js/bootstrap.js'
+  'bootstrap/dist/js/bootstrap.js',
+  'toastr/toastr.js'
 ]);
 
 // Copy fontawesome fonts
