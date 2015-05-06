@@ -10,7 +10,7 @@ module.exports = {
     var rawName   = entity.name;
     var name      = stringUtil.dasherize(rawName);
     var namespace = stringUtil.classify(rawName);
-    console.log(options);
+    //console.log(options);
 
     return {
       name: name,
