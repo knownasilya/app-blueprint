@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/knownasilya/app-blueprint/issues"
   },
-  "homepage": "https://github.com/knownasilya/app-blueprint"
+  "homepage": "https://github.com/knownasilya/app-blueprint",
+  "dependencies": {
+    "rsvp": "^3.0.18"
+  }
 }
