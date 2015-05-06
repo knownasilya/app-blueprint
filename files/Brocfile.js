@@ -5,7 +5,13 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 var mergeTrees = require('broccoli-merge-trees');
 var pickFiles = require('broccoli-static-compiler');
 
-var app = new EmberApp();
+var app = new EmberApp({
+  inlineContent: {
+    'google-map' : {
+      content: '<script src="//maps.googleapis.com/maps/api/js?signed_in=true&libraries=geometry"></script>'
+    }
+  }
+});
 
 // Use `app.import` to add additional libraries to the generated
 // output files.
